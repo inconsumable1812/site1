@@ -1,0 +1,362 @@
+
+h1{
+    text-align: center;
+    color: rgb(54, 53, 73);
+}
+
+.card_h1{
+    /*background-color: rgba(255, 255, 255, 0.9); */
+    background-color: transparent;
+    width: 20rem;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.carus1{
+    height: 21rem;
+}
+.carus1 img{
+    margin: -200px 0px 0px 0px;
+    max-width: 100%;
+}
+.infoban {
+    position: absolute; 
+    left: 0; 
+     top: 0;
+    border-bottom: 500px solid #142458;
+    border-right: 150px solid transparent;
+    height: 0;
+    width: 60%;
+}
+.promo_img{
+    padding-left: 40%;
+width: 100%; /* Ширина изображений */
+ height: 100%; /* Высота изображении */
+ object-fit: cover; /* Вписываем фотографию в область */
+ right: 0; 
+ bottom: 0;
+ position: absolute; 
+}
+.promo{
+    text-align: center;
+    color: rgb(255, 255, 255);
+    margin-top: 45px;
+}
+.promo_text{
+    text-align: center;
+    color: rgb(255, 255, 255);
+    font-size: 15pt;
+    margin-top: 25px;
+}
+
+.infotext a {
+    width: 240px;
+    display: block;
+    text-align: center;
+    padding: 14px 0;
+    margin-left: auto;
+    margin-right: auto;
+     margin-top: 30px;
+    background: #88bd2d;
+    border-radius: 6px;
+    color: #ffffff;
+    text-decoration: none;
+    font-size: 18px;
+    transition: all 0.15s linear;
+}
+.infotext a:hover {
+    background: #73a026;
+}
+.carus2{
+    height: 18rem;
+}
+.infoban1 {
+    position: absolute; 
+    left: 0; 
+     top: 0;
+    border-bottom: 500px solid #142458;
+    height: 100%;
+    width: 100%;
+}
+.promo1{
+    text-align: center;
+    color: rgb(255, 255, 255);
+    margin-top: 28px;
+}
+
+.services{
+    background-image: url(1584027716_32-p-stomatologicheskie-foni-80.jpg);
+    background-size: cover;
+}
+.services_cont{
+    padding-bottom: 60px;
+    padding-top: 10px;
+}
+
+.card_services{
+    margin-top: 5px;
+    margin-bottom: 5px;
+    height: 14rem;
+    width: 14rem;
+    background-color: rgba(255, 255, 255, 0.9);
+    margin-left: auto;
+    margin-right: auto;
+}
+.card_services a p{
+    color: black;
+}
+.card_services img{
+    padding: 10px 10px 10px 10px
+}
+
+.card_services img{
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    border-radius: 30px
+}
+.terapia{
+    height: 10rem;
+    width: 10rem;
+
+}
+.terapia_block{
+    animation-name: header_anim_Left;
+    animation-duration: 1s;
+    animation-timing-function: cubic-bezier(0.68, -0.55, 0.265, 1.55);
+}
+.protez{
+    height: 10rem;
+    width: 14rem;
+
+}
+.protez_block{
+    animation-name: header_anim_Up;
+    animation-duration: 1s;
+    animation-timing-function: cubic-bezier(0.68, -0.55, 0.265, 1.55);
+}
+@keyframes header_anim_Right {
+    from {
+      transform: translateX(150%);
+    }
+    to {
+      transform: translateX(0);
+    }
+  }
+  @keyframes header_anim_Left {
+    from {
+      transform: translateX(-150%);
+    }
+    to {
+      transform: translateX(0);
+    }
+  }
+  @keyframes header_anim_Up {
+    from {
+      transform: translateY(-150%);
+    }
+    to {
+      transform: translateY(0);
+    }
+  }
+.hirurgia{
+    height: 10rem;
+    width: 14rem;
+
+}
+.hirurgia_block{
+    animation-name: header_anim_Right;
+    animation-duration: 1s;
+    animation-timing-function: cubic-bezier(0.68, -0.55, 0.265, 1.55);
+}
+.gigiena{
+    height: 10rem;
+    width: 14rem;
+
+}
+.gigiena_block{
+    animation-name: header_anim_Left;
+    animation-duration: 1s;
+    animation-timing-function: cubic-bezier(0.68, -0.55, 0.265, 1.55);
+}
+.detstvo{
+    height: 10rem;
+    width: 13rem;
+
+}
+.detstvo_block{
+    animation-name: header_anim_Right;
+    animation-duration: 1s;
+    animation-timing-function: cubic-bezier(0.68, -0.55, 0.265, 1.55);
+}
+
+.card p{
+    text-align: center;
+}
+
+.clinic{
+    background-image: linear-gradient(to right, #ddebf8, #fff);
+}
+
+.o_clinic{
+    font-size: 15pt;
+}
+.carus{
+    height: 80vh;
+}
+.carus img{
+    margin: -200px 0px 0px 0px;
+    max-width: 100%;
+}
+
+@media only screen and (max-width: 1400px){
+    .carus img{
+        margin: -100px 0px 0px 0px;
+        max-width: 100%;
+    }
+}
+@media only screen and (max-width: 900px) {
+    .carus{
+        height: 100%;
+    }
+    .carus img{
+        margin: 0px 0px 0px 0px;
+        max-width: 100%;
+    }
+}
+
+
+.team{
+     /*background-image: url(imgonline-com-ua-Mirror-5iaDl1dAFo2OWVo.png);
+    background-size: cover;*/
+    background-image: linear-gradient(to right, #ddebf8, #fff);
+    
+}
+.feedback{
+   background-image: linear-gradient(to right, #cee5fa, #fff);
+   
+}
+.card_team {
+     margin-left: auto;
+    margin-right: auto;
+    margin-top: 5px;
+    margin-bottom: 5px;
+    background-color: transparent /* Цвет фона и значение прозрачности */
+}
+
+.card_team img{
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    border-radius: 50px;
+    padding: 10px 10px 10px 10px
+}
+.glavnaia_ramka{
+    height: 25rem;
+    width: 25rem;
+}
+.glavnaia{
+    height: 18rem;
+    width: 25rem;
+}
+.alexander_ramka{
+    height: 29rem;
+    width: 21rem;
+}
+.alexander{
+    height: 21rem;
+    width: 19rem;
+}
+.alla_ramka{
+    height: 29rem;
+    width: 19rem;
+}
+.alla{
+    height: 21rem;
+    width: 18rem;
+}
+.roma_ramka{
+    height: 27rem;
+    width: 25rem;
+}
+.roma{
+    height: 21rem;
+    width: 25rem;
+}
+
+
+.img:hover{
+    box-shadow: 0px 0px 4px 4px rgba(151, 162, 253, 0.35);
+}
+
+
+.card_team a p{
+    color: black;
+}
+
+/*
+.map{
+   width: 80vw;
+   height: 60vh;
+   margin-left: auto; 
+   margin-right: auto;
+}
+
+iframe{
+    border: none !important;
+    width: 80vw;
+    height: 60vh;
+}
+.contacts{
+    background-image: linear-gradient(to right, #beddfa, #fff);
+}
+
+.sm_map{
+    width:100%;
+}
+.contacts_tel{
+    text-align: center;
+}
+
+.contacts_addres{
+    text-align: center;
+}
+.contacts_bus{
+    text-align: center;
+
+}
+*/
+@media only screen and (max-width: 576px){
+    .glavnaia{
+        height: 12rem;
+        width: 18rem;
+    }
+    .roma{
+        height: 14rem;
+        width: 16rem;
+    }
+    .roma_ramka{
+        height: 22rem;
+        width: 25rem;
+    }
+    .glavnaia_ramka{
+        height: 22rem;
+        width: 25rem;
+    }
+    .alla{
+        height: 19rem;
+        width: 16rem;
+    }
+    .alla_ramka{
+        height: 30rem;
+        width: 19rem;
+    }
+    .alexander{
+        height: 18rem;
+        width: 16rem;
+    }
+    .alexander_ramka{
+        height: 30rem;
+        width: 21rem;
+    }
+}

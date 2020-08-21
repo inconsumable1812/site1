@@ -1,0 +1,154 @@
+<!DOCTYPE html>
+
+<html>
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Стоматологическая клиника "Виктория"</title>
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css" integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
+    <script src="https://code.jquery.com/jquery-3.4.1.slim.min.js" integrity="sha384-J6qa4849blE2+poT4WnyKhv5vZF5SrPo0iEjwBvKU7imGFAV0wwj1yYfoRSJoZ+n" crossorigin="anonymous"></script>
+<script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js" integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo" crossorigin="anonymous"></script>
+<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js" integrity="sha384-wfSDF2E50Y2D1uUdj0O3uMBJnjuUD4Ih7YwaYd1iqfktj0Uod8GCExl3Og8ifwB6" crossorigin="anonymous"></script>
+
+    <link rel="shortcut icon" href="favicon.png" type="image/png">
+    <link rel="stylesheet" href="Doctor.css" />
+    <link rel="stylesheet" href="main.css" />
+    <script type="text/javascript">
+    
+      var map;
+  
+      DG.then(function () {
+          map = DG.map('map', {
+              center:  [52.322823, 104.316748],
+              zoom: 16, geoclicker: true
+          });
+          DG.marker([52.322823, 104.316748]).addTo(map).bindPopup('​Топкинский микрорайон, 75​; 1 этаж');
+      });
+  </script>
+  </head>
+  <body>
+
+    <div class="wrapper"> 
+    <nav class="navbar navbar-expand-lg navbar-light" >
+      <div class="container">
+      <a href="index.html"><img src="Logo1.png" style=" max-height: 10rem;
+      max-width: 10rem;"> </a>
+      <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse" id="navbarNav">
+        <ul class="navbar-nav mr-auto ml-2">
+          <li class="nav-item active">
+            <a class="nav-link" href="index.html#services">Услуги <span class="sr-only">(current)</span></a>
+          </li>
+          <li class="nav-item active">
+            <a class="nav-link" href="index.html#clinic">О клинике</a>
+          </li>
+          <li class="nav-item active">
+            <a class="nav-link" href="index.html#team">Команда</a>
+          </li>
+          <li class="nav-item active">
+            <a class="nav-link" href="index.html#feedback">Отзывы</a>
+          </li>
+          <li class="nav-item active">
+            <a class="nav-link" href="index.html#contacts">Контакты</a>
+          </li>
+
+        </ul>
+        <span class="navbar-text "  style="color: black;">
+          +7‒914‒909‒44‒84
+        </span>
+      </div>
+    </div>
+    </nav>
+
+
+
+
+<div class="team">
+<div class="container py-2">
+    <h1>Шабанова Алла Александровна</h1>
+<div class="doc_content">  
+    <div class="img_d py-1">
+          <img src="Алла.jpg" class="card-img-top photo alla" alt="Шабанова Алла">
+        </div>
+         <ul class="speakerItem pb-5">
+            <li>Стоматолог общей практики</li>
+            <li>Стоматолог гигиенист</li>
+            <li>Образование:<br> ИГМУ, стоматологический факультет, 2020 г.</li> 
+        </ul>
+
+    </div>
+</div>
+
+</div>
+<div class="clearfix"></div>
+
+
+<div class="contacts">
+  <div class="container col-lg-12 col-md-12 col-12 pt-3">
+    <div >
+      <h1 class="contact" id="contacts">Контакты</h1>
+      <p class="contacts_tel"> <a href="tel: +7(3952)731977">+7 (3952) 73‒19‒77</a> <br>
+        <a href="tel: +79149094484">+7‒914‒909‒44‒84</a>  
+          <a class=" " href="viber://add?number=79149094484" target="">
+            <img src="Viber.png" class="card-img-top viber ">
+          </a> 
+          <a class=" " href="https://wa.me/79149094484" target="_blank">
+            <img src="Whatsapp.png" class="card-img-top whatsapp ">
+          </a> 
+      </p>
+        <p class="contacts_addres">Топкинский микрорайон, 75 </p>  
+        <p class="contacts_bus"> Остановка общественного транспорта: "ЖК Видный"<br></p> 
+        <div class="contacts_bus d-flex justify-content-around">
+          <span> Маршрутное такси: №27</span>
+          <span> Автобус: №67</span>
+        </div>        
+       
+        <p class="contacts_bus"> </p>
+    </div>
+    <div class="map d-none d-md-block" > <a class="dg-widget-link" href="http://2gis.ru/irkutsk/firm/70000001007110849/center/104.31668758392335,52.32320929675933/zoom/16?utm_medium=widget-source&utm_campaign=firmsonmap&utm_source=bigMap">
+      Посмотреть на карте Иркутска</a>
+      <div class="dg-widget-link"><a href="http://2gis.ru/irkutsk/firm/70000001007110849/photos/70000001007110849/center/104.31668758392335,52.32320929675933/zoom/17?utm_medium=widget-source&utm_campaign=firmsonmap&utm_source=photos">Фотографии компании</a></div><div class="dg-widget-link"><a href="http://2gis.ru/irkutsk/center/104.316686,52.322755/zoom/16/routeTab/rsType/bus/to/104.316686,52.322755╎Виктория, стоматологический кабинет?utm_medium=widget-source&utm_campaign=firmsonmap&utm_source=route">Найти проезд до Виктория, стоматологический кабинет</a></div><script charset="utf-8" src="https://widgets.2gis.com/js/DGWidgetLoader.js"></script><script charset="utf-8">new DGWidgetLoader({"width":640,"height":600,"borderColor":"#a3a3a3","pos":{"lat":52.32320929675933,"lon":104.31668758392335,"zoom":16},"opt":{"city":"irkutsk"},"org":[{"id":"70000001007110849"}]});</script><noscript style="color:#c00;font-size:16px;font-weight:bold;">Виджет карты использует JavaScript. Включите его в настройках вашего браузера.</noscript>
+    </div>
+    <div class="d-md-none"><a href="https://2gis.ru/irkutsk/firm/70000001007110849?m=104.316688%2C52.323209%2F16&utm_source=bigMap&utm_medium=widget-source&utm_campaign=firmsonmap" target="_blank">
+      <img class="sm_map" src="Map_sm.PNG" alt="Карты">
+    </a>
+  </div>
+  </div>
+</div>
+
+<footer >
+<div class="containerfluid foot">
+    <div class="row mx-0">
+      <div class="col-lg-4 col-md-6 col-12 ">
+        <div class="card border-0 card_footer " >
+          <a class="btn-floating btn-fb " href="https://www.instagram.com/vika_stom/" target="_blank">
+            <img src="instagram.png" class="card-img-top instagram ">
+          </a>
+       </div>
+      </div>
+  
+    <div class="col-lg-4 col-md-6 col-12">
+      <div class="card border-0 card_footer ">         
+        <div class="card-body">
+        <a href="#!" class="a_footer">Лицензия</a><br>
+        </div>
+    </div>
+  </div> 
+  <div class="col-lg-4 col-md-6 col-12">
+    <div class="card border-0 card_footer">
+      <div class="card-body">
+        <a href="#!" class="a_footer">Сайт разработан</a>
+   </div>
+  </div>
+  </div> 
+   
+</div>
+</div>
+  </div>
+</footer>
+
+  
+  </body>
+</html>

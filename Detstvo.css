@@ -1,0 +1,79 @@
+
+.card_h1{
+    background-color:transparent;  /* Цвет фона и значение прозрачности */
+    margin-left: auto;
+    margin-right: auto;
+    text-align: center;
+    color: white;
+}
+
+.card_services{
+    margin-top: 5px;
+    margin-bottom: 5px;
+
+    /*background-color: rgba(255, 255, 255, 0.9); */
+    margin-left: auto;
+    margin-right: auto;
+    background-color: transparent
+}
+.card_services a p{
+    color: black;
+}
+
+.card_services img{
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    border-radius: 30px;
+    padding: 10px 10px 10px 10px;    
+}
+.zubik{
+    height: 13rem;
+    width: 11rem;
+}
+.zubik_1{
+    height: 13rem;
+    width: 11rem;
+}
+.udalenie{
+    height: 13rem;
+    width: 14rem;
+}
+.gigiena{
+    height: 16rem;
+    width: 16rem;
+}
+.name_services{
+    font-size: 18pt;
+    text-align: center ;
+    font-weight: 800;
+    color:rgb(230, 230, 230);
+}
+.details_services{
+    text-align: left;
+    font-size: 14pt;
+    color:rgb(230, 230, 230);
+}
+
+.price_services{
+    font-size: 20pt;
+    color:rgb(220, 223, 69);
+    text-align: center;
+}
+.price{
+    text-align: center;
+    color: ivory;
+    font-size: 15pt;
+}
+.vopros{
+   
+}
+.otvet{
+    font-style:italic;
+}
+.germetic{
+    height: 16rem;
+    width: 20rem;
+}
+
+

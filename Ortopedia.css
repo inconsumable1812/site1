@@ -1,0 +1,105 @@
+
+.card_h1{
+    background-color:transparent;  /* Цвет фона и значение прозрачности */
+    margin-left: auto;
+    margin-right: auto;
+    text-align: center;
+    color: white;
+}
+
+.card_services{
+    margin-top: 5px;
+    margin-bottom: 5px;
+
+    /*background-color: rgba(255, 255, 255, 0.9); */
+    margin-left: auto;
+    margin-right: auto;
+    background-color: transparent
+}
+.card_services a p{
+    color: black;
+}
+
+.card_services img{
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    border-radius: 30px;
+    padding: 10px 10px 10px 10px;    
+}
+.zubik{
+    height: 15rem;
+    width: 14rem;
+}
+.zubik_1{
+    height: 15rem;
+    width: 20rem;
+}
+.metceramika{
+    height: 15rem;
+    width: 22rem;
+}
+.cirkonieva{
+    height: 15rem;
+    width: 22rem;
+}
+.Vinir{
+    height: 15rem;
+    width: 22rem;
+}
+.protez{
+    height: 15rem;
+    width: 26rem;
+}
+.plastina{
+    height: 15rem;
+    width: 22rem;
+}
+.akril{
+    height: 15rem;
+    width: 21rem;
+}
+.bygel{
+    height: 15rem;
+    width: 22rem;
+}
+.remont{
+    height: 15rem;
+    width: 16rem;
+}
+@media only screen and (max-width: 576px){
+    .protez{
+        height: 12rem;
+        width: 22rem;
+    }
+}
+.name_services{
+    font-size: 18pt;
+    text-align: center ;
+    font-weight: 800;
+    color:rgb(230, 230, 230);
+}
+.details_services{
+    text-align: left;
+    font-size: 14pt;
+    color:rgb(230, 230, 230);
+}
+
+.price_services{
+    font-size: 20pt;
+    color:rgb(220, 223, 69);
+}
+.price_services_op{
+    font-size: 15pt;
+    color:rgb(220, 223, 69);
+}
+.price{
+    text-align: center;
+    color: ivory;
+    font-size: 15pt;
+}
+.vopros{
+    font-style:italic;
+    font-weight: bold;
+}
+
